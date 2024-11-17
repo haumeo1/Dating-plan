@@ -22,16 +22,29 @@
   <link href="assets/css/style.css" rel="stylesheet">
 </head> <!-- Head Ends -->
 <!-- Body -->
+ <style>
+  .plan-image {
+  width: 100%;
+  max-width: 400px; /* Set max-width to control image size */
+  height: 250px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  /* align in the midle */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ </style>
 <body>
   <header id="header">
     <div class="container-fluid">
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">Plan A Date</a></h1>
+        <h1><a href="#intro" class="scrollto">Thursday, November 21st</a></h1>
       </div>
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#search">Search</a></li>
+          
           <!-- <li><a href="#itineraryArea">Plan</a></li> -->
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -46,9 +59,7 @@
             <div class="carousel-background"><img src="assets/images/aquarium.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Planning made easy!</h2>
-                <p>It's as easy as 1 - 2 - 3 ...</p>
-                <a href="#search" class="btn-get-started scrollto">Start Planning</a>
+                <h2>Xin chào chị ==))</h2>
               </div>
             </div>
           </div>
@@ -56,9 +67,7 @@
             <div class="carousel-background"><img src="assets/images/lake-park-2387963_1920.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>1. Tell us where</h2>
-                <p>to see options in that area</p>
-                <a href="#search" class="btn-get-started scrollto">Start Planning</a>
+                <h2>Ready for a hmmmm .... date?</h2>
               </div>
             </div>
           </div>
@@ -66,9 +75,7 @@
             <div class="carousel-background"><img src="assets/images/edward-franklin-72304-unsplash.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>2. Choose dining and entertainment</h2>
-                <p>to suit your interests</p>
-                <a href="#search" class="btn-get-started scrollto">Start Planning</a>
+                <h2>Would you go?</h2>
               </div>
             </div>
           </div>
@@ -76,9 +83,7 @@
             <div class="carousel-background"><img src="assets/images/cheers-839865_1920.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>3. View search results</h2>
-                <p>make your plans and have fun!</p>
-                <a href="#search" class="btn-get-started scrollto">Start Planning</a>
+                <h2>No worry cus there is no turning back ==)) </h2>
               </div>
             </div>
           </div>
@@ -86,9 +91,8 @@
             <div class="carousel-background"><img src="assets/images/people-2561578_1280.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Coming soon ...</h2>
-                <p>share your plan</p>
-                <a href="#search" class="btn-get-started scrollto">Start Planning</a>
+                <h2>Scroll down</h2>
+                <p>And enjoy ==))</p>
               </div>
             </div>
           </div>
@@ -111,22 +115,22 @@
         <div class="row">
           <div class="col-lg-4 box">
             <i class="ion-ios-heart-outline"></i>
-            <h4 class="title"><a href="">Lighten up ...</a></h4>
-            <p class="description">just enjoy life, smile more, laugh more, and don't get so worked up about things.</p><br>
-            <p> --Kenneth Branagh</p>
+            <h4 class="title"><a href="">Weather</a></h4>
+            <p class="description">4 degree to 7 degree</p><br>
+            <p>Rain between 2pm to 4pm but no worries!!!</p>
           </div>
           <div class="col-lg-4 box box-bg">
             <i class="ion-ios-stopwatch-outline"></i>
-            <h4 class="title"><a href="">Slow down and enjoy life ...</a></h4>
-            <p class="description">it's not only the scenery you miss by going too fast - you also miss the sense of
-              where you are going and why.</p><br>
-              <p>--Eddie Cantor</p>
+            <h4 class="title"><a href="">Start Time</a></h4>
+            <p class="description">Đúng 3pm sẽ có mặt ở trước nhà nha</p><br>
+            <p>Xin vui lòng liên hệ lại để cung cấp địa chỉ nhà ==))</p>
+            
             </div>
             <div class="col-lg-4 box">
               <i class="ion-ios-heart-outline"></i>
               <h4 class="title"><a href="">Simply ...</a></h4>
-              <p class="description">enjoy life and the great pleasures that come with it.</p><br>
-              <p>--Karolina Kurkova</p>
+              <p class="description">And just go with no pressure and be truly enjoy</p><br>
+  
             </div>
           </div>
         </div>
@@ -137,49 +141,42 @@
         <section id="search" class="section-bg">
           <br> <!--VH added for better spacing at top of page -->
           <header class="section-header">
-            <h3>Search</h3>
-            <p>Find a place to eat with great food. Have fun and enjoy some entertainment.</p>
+            <h3>Plan</h3>
           </header>
           <div class="container">
-            <div class="row align-items-center">
-              <div class="col-md-2">
-              </div>
-              <!-- Food section -->
-              <div class="col-md-8 wow fadeInUp">
-                <div class="w-100"></div>
-                <h2 class="title"><a href="#">Food & Entertainment!</a></h2>
-                <p>
-                  Search below to select your dining and entertainment experience.
-                </p>
-                <!-- Search input for food -->
-                <form>
-                  <!-- Search in location -->
-                  City: <input type="text" class="form-control" name="location" id="location-input" placeholder="Funtown"
-                  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                  <br>
-                  <!-- General Food search -->
-                  Food: <input type="text" class="form-control" name="food" id="food-input" placeholder="Search for restaurant (ex. Italian, Chinese) " />
-                  <div class="validation"></div>
-                  <br>
-                  Event: <input type="text" class="form-control" name="events" id="event-input" placeholder="Seach for event (ex. concerts, sports, music)" />
-                  <div class="validation"></div>
-                  <br>
-                  <div class="text-left" id="search-button"><button class="btn btn-success" type="submit">Search</button></div>
-                </form>
+            <!-- Bowling Section -->
+            <div class="section">
+                <h2>2:00 PM - Bowling at The Ballroom</h2>
+                <img class="plan-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXZCAO_IcVMnKXmfyqnRHjRlLgVsCbL7brOQ&s" alt="Bowling">
+    
+                <p style="font-size: 25px;"><strong>Address:</strong> 145 John St, Toronto, ON M5V 2E4</p>
+            </div>
+    
+            <!-- District Village Section -->
+            <div class="section">
+                <h2>4:00 PM - Distillery district</h2>
+                <img class = "plan-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKoPled2LuX9BVaiM039iel6kEo9oZJFjdRA&s" alt="District Village">
+            
+                <p><strong style="font-size: 25px;">Address:</strong> District Village, Toronto, ON</p>
+            </div>
+    
+            <!-- Dinner Section -->
+            <div class="section">
+                <h2>6:30 PM - Dinner at Henry's Restaurant</h2>
+
+
+                <img class="plan-image" src="https://torontolife.mblycdn.com/uploads/tl/2022/07/Henrys-Rest.WineBar-2.jpg" alt="Henry's Restaurant">
                 <br>
-                <!-- VH add div for Yelp and SeatGeek logos-->
-                <div id="api-credits">
-                  <p id="food-credit">Food information provided by:</p>
-                  <img id=" food-logo" src="assets/images/Yelp_trademark_RGB_outline.png" alt="Yelp logo" height="50">
-                  <p id="event-credit">Event information provided by:</p>
-                  <img id="event-logo" src="assets/images/102x19.png" alt="SeatGeek logo">
-                </div> <!-- end of div VH added for Yelp and SeatGeek logos -->
-              </div>
-              <div class="col-md-2">
-              </div>
-            </div> <!-- </div> End Row -->
-          </div> <!-- </div> End Container -->
+                <a style="font-size: 25px;" href="https://www.henrystoronto.ca/menu" target="_blank">Take a look at the menu</a>
+            </div>
+            <div class="section">
+                <h2>8:00 PM - Dessert at whatever you like</h2>
+                <img class="plan-image" src="https://images.pexels.com/photos/18954039/pexels-photo-18954039/free-photo-of-puff-pastry-served-on-plate.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Henry's Restaurant">
+
+
+            </div>
+        </div>
+    
         </section>
         <!--- End Search Section-->
         <!--==========================
