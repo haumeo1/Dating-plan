@@ -1,4 +1,4 @@
-# Plan-A-Date 
+# A night out
 
 ### Group Project 1
 #### Team members: Vicki Hope, Jamie Rodriguez Alton Salmon, Daniel Valverde
